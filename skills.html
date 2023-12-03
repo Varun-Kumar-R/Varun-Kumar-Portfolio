@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .skills-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    .skill {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 10px;
+      flex-basis: 45%; /* Adjust the width of the skill sections as needed */
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    .proficiency-buttons {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    .proficiency-buttons button {
+      margin: 0 5px;
+      padding: 8px 12px;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+  <title>My Skills</title>
+</head>
+<body>
+
+  <header>
+    <h1>My Skills</h1>
+  </header>
+
+  <section class="skills-container">
+    <div class="skill">
+      <h2>Programming Languages</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <!-- Add more languages as needed -->
+      </ul>
+      <div class="proficiency-buttons">
+        <button>Starter</button>
+        <button>Medium</button>
+        <button>Advanced</button>
+      </div>
+    </div>
+
+    <div class="skill">
+      <h2>Web Development Frameworks</h2>
+      <ul>
+        <li>React</li>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <!-- Add more frameworks as needed -->
+      </ul>
+      <div class="proficiency-buttons">
+        <button>Starter</button>
+        <button>Medium</button>
+        <button>Advanced</button>
+      </div>
+    </div>
+
+    
+  </section>
+
+  <a href="javascript:history.back()" class="go-back">Go Back</a>
+
+
+</body>
+</html>
